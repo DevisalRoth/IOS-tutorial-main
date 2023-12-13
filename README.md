@@ -1,12 +1,11 @@
 # IOS-tutorial
 Learn Swift use UIKIT technology.
-# Class 
+# class VS struct
 
-Reference Type:
-A class is a reference type in Swift. When you create an instance of a class and assign it to a variable or pass it as an argument to a function, you are working with a reference to the instance. Multiple references can point to the same instance in memory.
+Type: A structure is a value type while a class is a reference type.
 
-Mutable State:
-Since classes are reference types, changes made to the instance through one reference are visible through all references to that instance. If you modify the properties of a class instance through one reference, other references pointing to the same instance will reflect those changes.
+Inheritance: A structure cannot inherit from other types while a class can.
 
-Blueprint for Objects:
-A class serves as a blueprint or template for creating objects (instances). You define the properties and methods in a class, and then you can create multiple instances of that class.
+Deinitializers: Structures cannot have custom deinitializers while a class can.
+
+Multiple references: We can have more than one reference to a class instance; however, with structures, we cannot.
